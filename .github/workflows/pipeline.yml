@@ -31,5 +31,6 @@ jobs:
         run: |
           sudo chmod +x calc_script.sh
           sudo chmod +x test.sh 
+          ./test.sh
           echo Add other actions to build,
           echo test, and deploy your project.
